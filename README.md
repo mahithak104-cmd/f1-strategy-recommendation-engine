@@ -62,11 +62,11 @@ The strategy with the lowest simulated race time is recommended as the optimal s
 
 ## Tire Degradation Analysis
 
-![Tire Degradation](visuals/tire_degradation.png)
+![Tire Degradation](tire_degradation.png)
 
 ## Strategy Performance Heatmap
 
-![Strategy Heatmap](visuals/strategy_heatmap.png)
+![Strategy Heatmap](strategy_heatmap.png)
 
 ---
 ## Key Insight
