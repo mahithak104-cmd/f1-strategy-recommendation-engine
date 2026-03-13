@@ -58,16 +58,17 @@ Soft → Hard
 
 The strategy with the lowest simulated race time is recommended as the optimal strategy.
 
+---
+
 ## Tire Degradation Analysis
 
-![Tire Degradation](plt.savefig(\"visuals:tire_degradation.png\", dpi=300).png)
- 
+![Tire Degradation](visuals/tire_degradation.png)
 
 ## Strategy Performance Heatmap
 
-![Strategy Heatmap] (plt.savefig(\"visuals:strategy_heatmap.png\", dpi=300).png)
----
+![Strategy Heatmap](visuals/strategy_heatmap.png)
 
+---
 ## Key Insight
 
 The simulation results suggest that starting on **Soft tires** and switching to **Medium tires around lap 30** provides the best balance between early race pace and long-run tire durability.
