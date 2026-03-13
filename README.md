@@ -58,6 +58,13 @@ Soft → Hard
 
 The strategy with the lowest simulated race time is recommended as the optimal strategy.
 
+## Tire Degradation Analysis
+
+![Tire Degradation](visuals/tire_degradation.png)
+
+## Strategy Performance Heatmap
+
+![Strategy Heatmap](visuals/strategy_heatmap.png)
 
 ---
 
