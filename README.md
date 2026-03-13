@@ -1,4 +1,4 @@
-# f1-strategy-recommendation-engine
+# F1-strategy-recommendation-engine
 
 This project analyzes Formula 1 race telemetry data and builds a strategy recommendation system to identify optimal pit stop strategies.
 
