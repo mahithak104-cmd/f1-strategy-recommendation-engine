@@ -74,13 +74,6 @@ The strategy with the lowest simulated race time is recommended as the optimal s
 The simulation results suggest that starting on **Soft tires** and switching to **Medium tires around lap 30** provides the best balance between early race pace and long-run tire durability.
 
 ---
-
-## Future Improvements
-
-• Include weather and track temperature variables  
-• Extend strategy search to multi-pit strategies  
-• Build an interactive dashboard using Tableau or Power BI
-
 ## Optimal Strategy Result
 
 Start Tire: **Soft**  
@@ -88,10 +81,3 @@ Second Tire: **Medium**
 Optimal Pit Lap: **~30**  
 Average Simulated Race Time: **~5050 seconds**
 
-## How the Strategy Engine Works
-
-1. FastF1 API loads historical race telemetry
-2. Tire degradation curves are derived from lap time vs tire life
-3. Historical pit stop laps estimate realistic pit windows
-4. Monte Carlo simulation models race variability
-5. Strategies are evaluated based on average simulated race time
