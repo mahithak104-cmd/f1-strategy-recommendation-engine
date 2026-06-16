@@ -89,7 +89,6 @@ Ranked strategies based on simulated total race time.
 - Predictive Modeling
 - Sports Analytics
 - Strategy Optimization
-- 
 ---
 ## 👨‍💻 Author
 
