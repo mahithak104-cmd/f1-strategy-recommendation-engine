@@ -4,63 +4,72 @@ This project analyzes Formula 1 race telemetry data and builds a strategy recomm
 
 The project uses FastF1 race data to analyze tire degradation, simulate race scenarios, and compare different strategy combinations.
 
----
-
-## Project Objectives
-
-• Analyze tire degradation patterns across compounds  
-• Identify optimal pit stop windows  
-• Simulate race strategies using Monte Carlo simulation  
-• Compare strategies based on total race time  
+Which pit stop strategy gives a driver the highest chance of achieving the fastest race time?
 
 ---
 
-## Technologies Used
+🔍 The Problem
 
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-FastF1 API  
+Formula 1 race outcomes are heavily influenced by pit stop timing and tire strategy. Teams must balance tire degradation, pace, and pit stop time loss to determine the optimal race strategy.
+
+This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
 ---
 
-## Key Analysis
-
-### Tire Degradation Analysis
-
-The project evaluates how lap time changes as tire life increases for different tire compounds.
-
-Soft tires provide early race pace but degrade quickly, while medium and hard tires provide longer stint stability.
-
-### Pit Stop Timing
-
-Historical pit stop laps are analyzed to identify common pit windows during the race.
-
-### Monte Carlo Race Simulation
-
-A Monte Carlo simulation is used to model race outcomes under different strategies by incorporating:
-
-• Tire degradation  
-• Lap time variability  
-• Pit stop time loss  
+Key Findings
+Metric	Value
+Optimal Strategy	Soft → Medium
+Recommended Pit Lap	~30
+Average Race Time	~5050 sec
+Simulation Method	Monte Carlo
+Main Performance Driver	Tire degradation rate
 
 ---
 
-## Strategy Optimization
+Insights
+Soft tires provide the fastest initial pace but experience the highest degradation.
+Medium tires offer the best balance between speed and longevity.
+Strategy performance is highly sensitive to pit stop timing.
+Simulations show that pitting around lap 30 consistently produces the lowest average race time.
+Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
-The simulation evaluates multiple strategies such as:
+---
+🎯 Business / Racing Recommendation
 
-Soft → Medium  
-Medium → Hard  
-Soft → Hard  
+Teams should prioritize a Soft → Medium strategy when race conditions are stable and tire degradation follows expected patterns.
 
-The strategy with the lowest simulated race time is recommended as the optimal strategy.
+The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
+
+🔬 Analysis Performed
+Tire Degradation Analysis
+
+Evaluated lap-time changes as tire age increased across Soft, Medium, and Hard compounds.
+
+Pit Stop Window Analysis
+
+Analyzed historical pit stop timing to identify common strategy windows and their impact on race performance.
+
+Monte Carlo Simulation
+
+Simulated race outcomes by incorporating:
+
+Tire degradation effects
+Lap time variability
+Pit stop time penalties
+Random race-condition fluctuations
+Strategy Comparison
+
+Compared multiple strategies including:
+
+Soft → Medium
+Soft → Hard
+Medium → Hard
+
+and ranked them by simulated total race time.
 
 ---
 
-## Tire Degradation Analysis
+## Visualizations
 
 ![Tire Degradation](tire_degradation.png)
 
@@ -69,15 +78,15 @@ The strategy with the lowest simulated race time is recommended as the optimal s
 ![Strategy Heatmap](strategy_heatmap.png)
 
 ---
-## Key Insight
-
-The simulation results suggest that starting on **Soft tires** and switching to **Medium tires around lap 30** provides the best balance between early race pace and long-run tire durability.
+Tools & Stack
+Python — data processing and simulation
+Pandas — data manipulation
+NumPy — numerical calculations
+Matplotlib — visualizations
+Seaborn — heatmaps and exploratory analysis
+FastF1 API — Formula 1 telemetry and race data
 
 ---
-## Optimal Strategy Result
-
-Start Tire: **Soft**  
-Second Tire: **Medium**  
-Optimal Pit Lap: **~30**  
-Average Simulated Race Time: **~5050 seconds**
-
+👨‍💻 Author
+Mahitha Kalinathabotla
+---
