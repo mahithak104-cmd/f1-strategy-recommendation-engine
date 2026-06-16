@@ -38,7 +38,8 @@ This recommendation framework demonstrates how telemetry and simulation can be c
 
 The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
 
-##🔬 Analysis Performed
+---
+## 🔬 Analysis Performed
 Tire Degradation Analysis
 
 Evaluated lap-time changes as tire age increased across Soft, Medium, and Hard compounds.
@@ -49,6 +50,7 @@ Analyzed historical pit stop timing to identify common strategy windows and thei
 
 Monte Carlo Simulation
 
+---
 # Simulated race outcomes by incorporating:
 
 Tire degradation effects
@@ -67,7 +69,6 @@ Ranked them by simulated total race time.
 
 ---
 
----
 ## 📈Visualizations
 
 ![Tire Degradation](tire_degradation.png)
