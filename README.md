@@ -2,8 +2,6 @@
 
 This project analyzes Formula 1 race telemetry data and builds a strategy recommendation system to identify optimal pit stop strategies.
 
-The project uses FastF1 race data to analyze tire degradation, simulate race scenarios, and compare different strategy combinations.
-
 _Which pit stop strategy gives a driver the highest chance of achieving the fastest race time?_
 
 ---
