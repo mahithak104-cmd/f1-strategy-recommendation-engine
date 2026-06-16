@@ -22,12 +22,12 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 | Simulation Method | Monte Carlo |
 | Main Performance Driver | Tire degradation rate |
 
-## Insights
-Soft tires provide the fastest initial pace but experience the highest degradation.
-Medium tires offer the best balance between speed and longevity.
-Strategy performance is highly sensitive to pit stop timing.
-Simulations show that pitting around lap 30 consistently produces the lowest average race time.
-Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
+## 💡 Insights
+- Soft tires provide the fastest initial pace but experience the highest degradation.
+- Medium tires offer the best balance between speed and longevity.
+- Strategy performance is highly sensitive to pit stop timing.
+- Simulations show that pitting around lap 30 consistently produces the lowest average race time.
+- Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
 ---
 ## 🎯 Business / Racing Recommendation
@@ -38,32 +38,29 @@ The simulation indicates that switching from Soft to Medium around lap 30 maximi
 
 ---
 ## 🔬 Analysis Performed
-Tire Degradation Analysis
 
+### Tire Degradation Analysis
 Evaluated lap-time changes as tire age increased across Soft, Medium, and Hard compounds.
 
-Pit Stop Window Analysis
-
+### Pit Stop Window Analysis
 Analyzed historical pit stop timing to identify common strategy windows and their impact on race performance.
 
-Monte Carlo Simulation
+### Monte Carlo Simulation
+Simulated race outcomes by incorporating:
 
----
-## Simulated race outcomes by incorporating:
+- Tire degradation effects
+- Lap time variability
+- Pit stop time penalties
+- Random race-condition fluctuations
 
-Tire degradation effects
-Lap time variability
-Pit stop time penalties
-Random race-condition fluctuations
-Strategy Comparison
+### Strategy Comparison
+Compared multiple strategies including:
 
-## Compared multiple strategies including:
+- Soft → Medium
+- Soft → Hard
+- Medium → Hard
 
-Soft → Medium
-Soft → Hard
-Medium → Hard
-
-Ranked them by simulated total race time.
+Ranked strategies based on simulated total race time.
 
 ---
 
@@ -98,6 +95,6 @@ Ranked them by simulated total race time.
 
 Mahitha Kalinathabotla 
 
-www.linkedin.com/in/mahitha-kalinathabotla 
+[LinkedIn](https://www.linkedin.com/in/mahitha-kalinathabotla)
 
 ---
