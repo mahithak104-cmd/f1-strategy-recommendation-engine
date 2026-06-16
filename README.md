@@ -1,4 +1,4 @@
-## 🏎️ F1-strategy-recommendation-engine
+## 🏎️ Formula 1 Race Strategy Recommendation Engine
 
 This project analyzes Formula 1 race telemetry data and builds a strategy recommendation system to identify optimal pit stop strategies.
 
@@ -34,7 +34,7 @@ Aggressive early-race pace can outweigh degradation costs when paired with a wel
 ---
 ## 🎯 Business / Racing Recommendation
 
-Teams should prioritize a Soft → Medium strategy when race conditions are stable and tire degradation follows expected patterns.
+This recommendation framework demonstrates how telemetry and simulation can be combined to support real-time race strategy decisions.
 
 The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
 
@@ -78,8 +78,22 @@ Ranked them by simulated total race time.
 ---
 ## Tools & Stack
 
-Python — data processing and simulation; Pandas — data manipulation; NumPy — numerical calculations; Matplotlib — visualizations; Seaborn — heatmaps and exploratory analysis; FastF1 API — Formula 1 telemetry and race data
+- Python — data processing and simulation
+- Pandas — data manipulation
+- NumPy — numerical calculations
+- Matplotlib — visualizations
+- Seaborn — heatmaps and exploratory analysis
+- FastF1 API — Formula 1 telemetry and race data
 
+## 🚀 Skills Demonstrated
+
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Monte Carlo Simulation
+- Predictive Modeling
+- Sports Analytics
+- Strategy Optimization
+- 
 ---
 ## 👨‍💻 Author
 
