@@ -24,7 +24,7 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 | Simulation Method | Monte Carlo |
 | Main Performance Driver | Tire degradation rate |
 
-# Insights
+## Insights
 Soft tires provide the fastest initial pace but experience the highest degradation.
 Medium tires offer the best balance between speed and longevity.
 Strategy performance is highly sensitive to pit stop timing.
@@ -51,7 +51,7 @@ Analyzed historical pit stop timing to identify common strategy windows and thei
 Monte Carlo Simulation
 
 ---
-# Simulated race outcomes by incorporating:
+## Simulated race outcomes by incorporating:
 
 Tire degradation effects
 Lap time variability
@@ -59,7 +59,7 @@ Pit stop time penalties
 Random race-condition fluctuations
 Strategy Comparison
 
-# Compared multiple strategies including:
+## Compared multiple strategies including:
 
 Soft → Medium
 Soft → Hard
