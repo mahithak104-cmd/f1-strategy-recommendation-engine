@@ -40,12 +40,15 @@ The simulation indicates that switching from Soft to Medium around lap 30 maximi
 ## 🔬 Analysis Performed
 
 ### Tire Degradation Analysis
+
 Evaluated lap-time changes as tire age increased across Soft, Medium, and Hard compounds.
 
 ### Pit Stop Window Analysis
+
 Analyzed historical pit stop timing to identify common strategy windows and their impact on race performance.
 
 ### Monte Carlo Simulation
+
 Simulated race outcomes by incorporating:
 
 - Tire degradation effects
@@ -54,6 +57,7 @@ Simulated race outcomes by incorporating:
 - Random race-condition fluctuations
 
 ### Strategy Comparison
+
 Compared multiple strategies including:
 
 - Soft → Medium
@@ -64,7 +68,7 @@ Ranked strategies based on simulated total race time.
 
 ---
 
-## 📈Visualizations
+## 📈 Visualizations
 
 ![Tire Degradation](tire_degradation.png)
 
