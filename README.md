@@ -4,7 +4,7 @@ This project analyzes Formula 1 race telemetry data and builds a strategy recomm
 
 The project uses FastF1 race data to analyze tire degradation, simulate race scenarios, and compare different strategy combinations.
 
-Which pit stop strategy gives a driver the highest chance of achieving the fastest race time?
+_Which pit stop strategy gives a driver the highest chance of achieving the fastest race time?_
 
 ---
 
@@ -16,14 +16,14 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 
 ---
 ##💡 Key Findings
-Metric	Value
-Optimal Strategy	Soft → Medium
-Recommended Pit Lap	~30
-Average Race Time	~5050 sec
-Simulation Method	Monte Carlo
-Main Performance Driver	Tire degradation rate
+| Metric | Value |
+|---------|---------|
+| Optimal Strategy | Soft → Medium |
+| Recommended Pit Lap | ~30 |
+| Average Race Time | ~5050 sec |
+| Simulation Method | Monte Carlo |
+| Main Performance Driver | Tire degradation rate |
 
----
 # Insights
 Soft tires provide the fastest initial pace but experience the highest degradation.
 Medium tires offer the best balance between speed and longevity.
@@ -32,7 +32,7 @@ Simulations show that pitting around lap 30 consistently produces the lowest ave
 Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
 ---
-##🎯 Business / Racing Recommendation
+## 🎯 Business / Racing Recommendation
 
 Teams should prioritize a Soft → Medium strategy when race conditions are stable and tire degradation follows expected patterns.
 
@@ -76,15 +76,19 @@ Ranked them by simulated total race time.
 ![Strategy Heatmap](strategy_heatmap.png)
 ---
 ## Tools & Stack
+
 Python — data processing and simulation
 Pandas — data manipulation
 NumPy — numerical calculations
 Matplotlib — visualizations
 Seaborn — heatmaps and exploratory analysis
 FastF1 API — Formula 1 telemetry and race data
+
 ---
 ## 👨‍💻 Author
 
-Mahitha Kalinathabotla
+Mahitha Kalinathabotla 
+
+www.linkedin.com/in/mahitha-kalinathabotla 
 
 ---
