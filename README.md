@@ -15,7 +15,7 @@ Formula 1 race outcomes are heavily influenced by pit stop timing and tire strat
 This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
 ---
-##💡 Key Findings
+## 💡 Key Findings
 | Metric | Value |
 |---------|---------|
 | Optimal Strategy | Soft → Medium |
@@ -64,6 +64,7 @@ Soft → Hard
 Medium → Hard
 
 Ranked them by simulated total race time.
+
 ---
 
 ---
@@ -77,12 +78,7 @@ Ranked them by simulated total race time.
 ---
 ## Tools & Stack
 
-Python — data processing and simulation
-Pandas — data manipulation
-NumPy — numerical calculations
-Matplotlib — visualizations
-Seaborn — heatmaps and exploratory analysis
-FastF1 API — Formula 1 telemetry and race data
+Python — data processing and simulation; Pandas — data manipulation; NumPy — numerical calculations; Matplotlib — visualizations; Seaborn — heatmaps and exploratory analysis; FastF1 API — Formula 1 telemetry and race data
 
 ---
 ## 👨‍💻 Author
