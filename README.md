@@ -1,4 +1,4 @@
-# F1-strategy-recommendation-engine
+## 🏎️ F1-strategy-recommendation-engine
 
 This project analyzes Formula 1 race telemetry data and builds a strategy recommendation system to identify optimal pit stop strategies.
 
@@ -8,14 +8,14 @@ Which pit stop strategy gives a driver the highest chance of achieving the faste
 
 ---
 
-# 🔍 The Problem
+## 🔍 The Problem
 
 Formula 1 race outcomes are heavily influenced by pit stop timing and tire strategy. Teams must balance tire degradation, pace, and pit stop time loss to determine the optimal race strategy.
 
 This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
 ---
-# Key Findings
+##💡 Key Findings
 Metric	Value
 Optimal Strategy	Soft → Medium
 Recommended Pit Lap	~30
@@ -32,13 +32,13 @@ Simulations show that pitting around lap 30 consistently produces the lowest ave
 Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
 ---
-# 🎯 Business / Racing Recommendation
+##🎯 Business / Racing Recommendation
 
 Teams should prioritize a Soft → Medium strategy when race conditions are stable and tire degradation follows expected patterns.
 
 The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
 
-🔬 Analysis Performed
+##🔬 Analysis Performed
 Tire Degradation Analysis
 
 Evaluated lap-time changes as tire age increased across Soft, Medium, and Hard compounds.
@@ -67,7 +67,7 @@ Ranked them by simulated total race time.
 ---
 
 ---
-## Visualizations
+## 📈Visualizations
 
 ![Tire Degradation](tire_degradation.png)
 
@@ -75,7 +75,7 @@ Ranked them by simulated total race time.
 
 ![Strategy Heatmap](strategy_heatmap.png)
 ---
-# Tools & Stack
+## Tools & Stack
 Python — data processing and simulation
 Pandas — data manipulation
 NumPy — numerical calculations
@@ -83,8 +83,8 @@ Matplotlib — visualizations
 Seaborn — heatmaps and exploratory analysis
 FastF1 API — Formula 1 telemetry and race data
 ---
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-# Mahitha Kalinathabotla
+Mahitha Kalinathabotla
 
 ---
