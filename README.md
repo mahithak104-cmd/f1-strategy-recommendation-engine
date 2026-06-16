@@ -8,15 +8,14 @@ Which pit stop strategy gives a driver the highest chance of achieving the faste
 
 ---
 
-🔍 The Problem
+# 🔍 The Problem
 
 Formula 1 race outcomes are heavily influenced by pit stop timing and tire strategy. Teams must balance tire degradation, pace, and pit stop time loss to determine the optimal race strategy.
 
 This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
 ---
-
-Key Findings
+# Key Findings
 Metric	Value
 Optimal Strategy	Soft → Medium
 Recommended Pit Lap	~30
@@ -25,8 +24,7 @@ Simulation Method	Monte Carlo
 Main Performance Driver	Tire degradation rate
 
 ---
-
-Insights
+# Insights
 Soft tires provide the fastest initial pace but experience the highest degradation.
 Medium tires offer the best balance between speed and longevity.
 Strategy performance is highly sensitive to pit stop timing.
@@ -34,7 +32,7 @@ Simulations show that pitting around lap 30 consistently produces the lowest ave
 Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
 ---
-🎯 Business / Racing Recommendation
+# 🎯 Business / Racing Recommendation
 
 Teams should prioritize a Soft → Medium strategy when race conditions are stable and tire degradation follows expected patterns.
 
@@ -51,7 +49,7 @@ Analyzed historical pit stop timing to identify common strategy windows and thei
 
 Monte Carlo Simulation
 
-Simulated race outcomes by incorporating:
+# Simulated race outcomes by incorporating:
 
 Tire degradation effects
 Lap time variability
@@ -59,16 +57,16 @@ Pit stop time penalties
 Random race-condition fluctuations
 Strategy Comparison
 
-Compared multiple strategies including:
+# Compared multiple strategies including:
 
 Soft → Medium
 Soft → Hard
 Medium → Hard
 
-and ranked them by simulated total race time.
-
+Ranked them by simulated total race time.
 ---
 
+---
 ## Visualizations
 
 ![Tire Degradation](tire_degradation.png)
@@ -76,17 +74,17 @@ and ranked them by simulated total race time.
 ## Strategy Performance Heatmap
 
 ![Strategy Heatmap](strategy_heatmap.png)
-
 ---
-Tools & Stack
+# Tools & Stack
 Python — data processing and simulation
 Pandas — data manipulation
 NumPy — numerical calculations
 Matplotlib — visualizations
 Seaborn — heatmaps and exploratory analysis
 FastF1 API — Formula 1 telemetry and race data
-
 ---
-👨‍💻 Author
-Mahitha Kalinathabotla
+# 👨‍💻 Author
+
+# Mahitha Kalinathabotla
+
 ---
