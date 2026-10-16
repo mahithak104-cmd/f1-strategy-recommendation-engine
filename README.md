@@ -1,4 +1,4 @@
-## 🏎️  Formula 1 Race Strategy Recommendation Engine
+## Formula 1 Race Strategy Recommendation Engine
 
 This project analyzes Formula 1 race telemetry data and builds a strategy recommendation system to identify optimal pit stop strategies.
 
@@ -6,14 +6,14 @@ _Which pit stop strategy gives a driver the highest chance of achieving the fast
 
 ---
 
-## 🔍 The Problem
+## The Problem
 
 Formula 1 race outcomes are heavily influenced by pit stop timing and tire strategy. Teams must balance tire degradation, pace, and pit stop time loss to determine the optimal race strategy.
 
 This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
 ---
-## 💡 Key Findings
+## Key Findings
 | Metric | Value |
 |---------|---------|
 | Optimal Strategy | Soft → Medium |
@@ -22,7 +22,7 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 | Simulation Method | Monte Carlo |
 | Main Performance Driver | Tire degradation rate |
 
-## 💡 Insights
+## Insights
 - Soft tires provide the fastest initial pace but experience the highest degradation.
 - Medium tires offer the best balance between speed and longevity.
 - Strategy performance is highly sensitive to pit stop timing.
@@ -30,14 +30,14 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 - Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
 ---
-## 🎯 Business / Racing Recommendation
+## Business / Racing Recommendation
 
 This recommendation framework demonstrates how telemetry and simulation can be combined to support real-time race strategy decisions.
 
 The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
 
 ---
-## 🔬 Analysis Performed
+## Analysis Performed
 
 ### Tire Degradation Analysis
 
@@ -68,7 +68,7 @@ Ranked strategies based on simulated total race time.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ![Tire Degradation](tire_degradation.png)
 
@@ -85,7 +85,7 @@ Ranked strategies based on simulated total race time.
 - Seaborn — heatmaps and exploratory analysis
 - FastF1 API — Formula 1 telemetry and race data
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 
 - Exploratory Data Analysis (EDA)
 - Data Visualization
@@ -94,10 +94,8 @@ Ranked strategies based on simulated total race time.
 - Sports Analytics
 - Strategy Optimization
 ---
-## 👨‍💻 Author
-
+## Author
 Mahitha Kalinathabotla 
 
 [LinkedIn](https://www.linkedin.com/in/mahitha-kalinathabotla)
-
 ---
