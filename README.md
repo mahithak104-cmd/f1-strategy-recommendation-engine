@@ -95,7 +95,12 @@ Ranked strategies based on simulated total race time.
 - Strategy Optimization
 ---
 ## Author
-Mahitha Kalinathabotla
-[LinkedIn](https://www.linkedin.com/in/mahitha-kalinathabotla)
+
+**Mahitha Kalinathabotla**
+
+Master of Science in Business Analytics  
+University at Albany, SUNY
+
+Connect with me on [LinkedIn](www.linkedin.com/in/mahitha-kalinathabotla).
 
 ---
