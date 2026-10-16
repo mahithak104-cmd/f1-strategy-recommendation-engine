@@ -86,7 +86,7 @@ Ranked strategies based on simulated total race time.
 - Predictive Modeling
 - Sports Analytics
 - Strategy Optimization
-- 
+  
 ## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/mahitha-kalinathabotla/)
