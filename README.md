@@ -4,15 +4,12 @@ This project analyzes Formula 1 race telemetry data and builds a strategy recomm
 
 _Which pit stop strategy gives a driver the highest chance of achieving the fastest race time?_
 
----
-
 ## The Problem
 
 Formula 1 race outcomes are heavily influenced by pit stop timing and tire strategy. Teams must balance tire degradation, pace, and pit stop time loss to determine the optimal race strategy.
 
 This project analyzes historical Formula 1 telemetry data and uses simulation techniques to identify the most effective pit stop strategies for minimizing total race time.
 
----
 ## Key Findings
 | Metric | Value |
 |---------|---------|
@@ -29,14 +26,12 @@ This project analyzes historical Formula 1 telemetry data and uses simulation te
 - Simulations show that pitting around lap 30 consistently produces the lowest average race time.
 - Aggressive early-race pace can outweigh degradation costs when paired with a well-timed switch to medium compounds.
 
----
 ## Business / Racing Recommendation
 
 This recommendation framework demonstrates how telemetry and simulation can be combined to support real-time race strategy decisions.
 
 The simulation indicates that switching from Soft to Medium around lap 30 maximizes overall race performance by combining early-race speed with long-run consistency.
 
----
 ## Analysis Performed
 
 ### Tire Degradation Analysis
@@ -66,8 +61,6 @@ Compared multiple strategies including:
 
 Ranked strategies based on simulated total race time.
 
----
-
 ## Visualizations
 
 ![Tire Degradation](tire_degradation.png)
@@ -75,7 +68,7 @@ Ranked strategies based on simulated total race time.
 ## Strategy Performance Heatmap
 
 ![Strategy Heatmap](strategy_heatmap.png)
----
+
 ## Tools & Stack
 
 - Python — data processing and simulation
@@ -93,14 +86,7 @@ Ranked strategies based on simulated total race time.
 - Predictive Modeling
 - Sports Analytics
 - Strategy Optimization
----
-## Author
+- 
+## Connect with Me
 
-**Mahitha Kalinathabotla**
-
-Master of Science in Business Analytics  
-University at Albany, SUNY
-
-Connect with me on [LinkedIn](www.linkedin.com/in/mahitha-kalinathabotla).
-
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/mahitha-kalinathabotla/)
